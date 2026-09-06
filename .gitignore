@@ -1,18 +1,17 @@
 # dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp
 .pnp.js
-.yarn/install-state.gz
 
 # testing
-/coverage
+coverage/
 
 # next.js
-/.next/
-/out/
+.next/
+out/
 
 # production
-/build
+build/
 
 # misc
 .DS_Store
@@ -25,36 +24,29 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env
-
-# vercel
-.vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
-# prisma
-prisma/migrations/
+# vercel
+.vercel
 
-# logs
-logs/
-*.log
+# docker
+docker-compose.override.yml
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-$RECYCLE.BIN/
 
 # uploads
-/public/uploads/
-
-# temp
-/tmp/
+public/uploads/*
+!public/uploads/.gitkeep
